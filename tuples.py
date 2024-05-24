@@ -1,16 +1,11 @@
 def get_coordinate(record):
-    coordenadas = []
-    for elements in record:
-        coordenadas.append(elements[1])
-    return coordenadas
+    a, b = record
+    return b
 
 
 def convert_coordinate(coordinate):
-    coordenadas_correctas = []
-    for cords in coordinate:
-        coordenadas_correctas.append((cords[0], cords[1]))
-    return coordenadas_correctas
-
+    a, b = coordinate
+    return a, b
 
 
 def create_record(azara_record, rui_record):
