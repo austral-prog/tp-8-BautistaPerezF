@@ -1,6 +1,3 @@
-"""Functions to help Azara and Rui locate pirate treasure."""
-
-
 def get_coordinate(record):
     coordenadas = []
     for elements in record:
